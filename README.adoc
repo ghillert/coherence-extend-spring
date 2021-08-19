@@ -1,0 +1,32 @@
+# Coherence*Extend Example using Coherence Spring
+
+See: https://docs.oracle.com/en/middleware/standalone/coherence/14.1.1.0/develop-remote-clients/building-your-first-extend-application.html#GUID-6FFEAAD8-C2BE-49A4-A349-58DD854A242C
+
+Build the project:
+
+
+```bash
+$ mvn clean package
+```
+
+Start the server
+
+```bash
+$ java -jar coherence-extend-demo-server/target/coherence-extend-demo-server-1.0.0-SNAPSHOT.jar
+```
+
+Start the client application
+
+```bash
+$ java -jar coherence-extend-demo-app/target/coherence-extend-demo-app-1.0.0-SNAPSHOT.jar
+```
+
+Open your browser:
+
+
+```
+http://localhost:8080/hello
+```
+
+You should see the word `world` printed.
+
