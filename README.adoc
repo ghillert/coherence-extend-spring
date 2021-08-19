@@ -6,27 +6,22 @@ Build the project:
 
 
 ```bash
-$ mvn clean package
+mvn clean package
 ```
 
 Start the server
 
 ```bash
-$ java -jar coherence-extend-demo-server/target/coherence-extend-demo-server-1.0.0-SNAPSHOT.jar
+java -jar coherence-extend-demo-server/target/coherence-extend-demo-server-1.0.0-SNAPSHOT.jar
 ```
 
 Start the client application
 
 ```bash
-$ java -jar coherence-extend-demo-app/target/coherence-extend-demo-app-1.0.0-SNAPSHOT.jar
+java -jar coherence-extend-demo-app/target/coherence-extend-demo-app-1.0.0-SNAPSHOT.jar
 ```
 
-Open your browser:
-
-
-```
-http://localhost:8080/hello
-```
+Open your browser with address http://localhost:8080/hello
 
 You should see the word `world` printed.
 
