@@ -7,5 +7,6 @@ coherence:
     - config: coherence-cache-config.xml
 logging:
   level:
-    com.oracle.coherence: INFO
+    Coherence: DEBUG
+    com.oracle.coherence: DEBUG
     root: INFO

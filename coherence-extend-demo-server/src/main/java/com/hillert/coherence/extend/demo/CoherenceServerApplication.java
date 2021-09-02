@@ -1,5 +1,7 @@
 package com.hillert.coherence.extend.demo;
 
+import com.oracle.coherence.spring.configuration.DefaultCoherenceConfigurer;
+import com.oracle.coherence.spring.configuration.support.CoherenceInstanceType;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

@@ -6,7 +6,7 @@
 
 		<caching-scheme-mapping>
 			<cache-mapping>
-				<cache-name>coherenceSpringMap</cache-name>
+				<cache-name>*</cache-name>
 				<scheme-name>remote</scheme-name>
 			</cache-mapping>
 		</caching-scheme-mapping>
