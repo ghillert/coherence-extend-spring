@@ -1,8 +1,8 @@
 debug: false
 coherence:
   sessions:
-    client:
-    - config: "remote-cache-config.xml"
+    grpc:
+      - name: ""
 logging:
   level:
     com.oracle.coherence: INFO
