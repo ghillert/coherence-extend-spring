@@ -2,6 +2,8 @@ debug: false
 server:
   port: 8081
 coherence:
+  server:
+    startup-timeout: 5m
   sessions:
     server:
     - config: coherence-cache-config.xml
