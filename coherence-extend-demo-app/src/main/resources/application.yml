@@ -2,9 +2,9 @@ debug: false
 coherence:
   server:
     startup-timeout: 5m
-  sessions:
-    grpc:
-      - name: ""
+#  sessions:
+#    grpc:
+#      - name: ""
 logging:
   level:
     com.oracle.coherence: INFO
