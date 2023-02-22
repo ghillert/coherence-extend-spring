@@ -4,7 +4,6 @@ See: https://docs.oracle.com/en/middleware/standalone/coherence/14.1.1.0/develop
 
 Build the project:
 
-
 ```bash
 mvn clean package
 ```
@@ -25,3 +24,21 @@ Open your browser with address http://localhost:8080/hello
 
 You should see the word `world` printed.
 
+## Coherence and Spring Boot without Coherence Spring
+
+Module `coherence-extend-demo-app-plain` demonstrates the use of _Coherence_ with Spring Boot *without* _Coherence Spring_.
+The application behaves the same as module `coherence-extend-demo-app`. Simply start the app with:
+
+```bash
+java -jar coherence-extend-demo-app/target/coherence-extend-demo-app-plain-1.0.0-SNAPSHOT.jar
+```
+
+Open your browser with address http://localhost:8080/hello
+
+You should see the word `world` printed. Additionally open http://localhost:8080/hello/
+
+This will return the entire map of 2 entries. 1 entry being added by the server app on startup:
+
+```
+{"server":"says hello","hello":"world"}
+```
